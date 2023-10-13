@@ -1,0 +1,247 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+
+}
+.subheader1{
+    background-color: #0068b5;
+    height: 70px;
+    width: 65px;
+    line-height: 70px;
+    padding-left: 10px;
+}
+.img1{
+    width: 54px;
+    height: 21.2875px;
+}
+.subheader2{
+    height: 70px;
+    width: 956.675px;
+    display: flex;
+    line-height: 70px;
+    justify-content: flex-start;
+    
+}
+.subdiv1{
+    padding-left: 25px;
+}
+.subdiv1 a{
+    text-decoration: none;
+    color: #0068b5;
+    font-size: 14px;
+}
+.subheader3{
+    height: 70px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 70px;
+}
+.img2{
+    height: 21px;
+    height: 21px;
+}
+.btn1{
+    border: none;
+    background-color: white;
+    color: #0068b5;
+}
+.abcd{
+    font-size: 10px;
+    padding: 5px;
+}
+.subheader4{
+    height: 70px;
+    width: 300px;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.inpt1{
+    border: none;
+    background-color: #f3f3f3;
+}
+/* ---------------------------section1-------------------------------- -*/
+.section1{
+    background-image: url(images/Untitled\ design.png);
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.subsection{
+    height: 417px;
+    width: 1224px;
+    position: absolute;
+    left: 150px;
+    display: flex;
+}
+.subsec1{
+    height: 417px;
+    width: 505px;
+    margin-left: 45px;
+}
+.subsec2{
+    height: 417px;
+    width: 607px;
+}
+.link1{
+    background-color: #41728A;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+.divlink{
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 40px;
+    background-color: #41728A;
+}
+.divlink p{
+    font-size: 16px;
+}
+.para{
+    background-color: white;
+    color: #0068b5;
+    padding: 3px;
+    width: fit-content;
+    align-items: center;
+}
+.img3{
+    width: 20px;
+    height: 20px;
+}
+.img4{
+    height: 377px;
+    width: 670px;
+    position: absolute;
+    bottom: 0;
+}
+/*-----------------------------section2-------------------------------*/
+.section2{
+    height: 154px;
+    width: 100%;
+    margin-top: 17px;
+}
+.subsection2 ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 250px;
+    align-items: center;
+}
+/*-----------------------------section3-------------------------------*/
+.section3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 400px 500px 400px;
+    grid-gap: 10px;
+    place-content: center;
+    margin-left: 70px;
+}
+.subsection3{
+    margin-bottom: 20px;
+}
+.col1{
+    width: 350px;
+    background-color: #f3f3f3;
+
+}
+.col1 h2,p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.col2{
+    width: 470px;
+    background-color: #f3f3f3;
+}
+.col2 p{
+    padding-bottom: 20px;
+}
+.col2 h2,p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.col1 p{
+    padding-bottom: 20px;
+}
+.col3{
+    width: 470px;
+    background-color: #f3f3f3;
+    display: flex;
+}
+.col3 p{
+    padding-bottom: 0;
+}
+.col3 h2,p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.img6{
+    width: 350px;
+    height: 250px;
+}
+.img100{
+    width: 450;
+    height: 350;
+}
+.img99{
+    width: 200px;
+    height: 100px;
+}
+/*-----------------------------footer-------------------------------*/
+.section4{
+    width: 100%;
+    background-color: #e7e7e7;
+}
+.footlogo img{
+    height: 300px;
+    width: 80px;
+}
+.socialmedia{
+    padding-top: 40px;
+}
+.container{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 100px;
+    margin-right: 200px;
+}
+.linksec{
+    display: flex;
+}
+.socialmedia{
+    display: flex;
+}
+.footimg{
+    height: 30px;
+    width: 28px;
+    background: none;
+    padding-right: 20px;
+}
+.divvv{
+    display: flex;
+}
+.divvv p{
+    padding-right: 0;
+    padding-top: 0;
+}
+.decr{
+    padding-left: 40px;
+}
+.linksec a{
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+}
+.rootlink{
+    font-size: small;
+}
